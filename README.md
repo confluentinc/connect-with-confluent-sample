@@ -34,7 +34,7 @@ Start the controller application by running the following command from the proje
 
 In another terminal window, navigate to the 'cwcsample-react' directory and run the following command: 
 
-`npm install react-scripts@5.0.1`
+`npm install`
 
 ### Start the web application
 
