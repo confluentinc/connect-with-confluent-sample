@@ -83,7 +83,7 @@ const ConnectionAddConfluentCluster = () => {
                     Enter the Confluent Cloud connection information below.
 
                 </div>
-                <a href="/#" onClick={() => setHelpPanel(true)} className={"App-link"}>For help, click here.</a>
+                <a href="#" onClick={() => setHelpPanel(true)} className={"App-link"}>For help, click here.</a>
 
                 <Offcanvas isOpen={helpPanel} toggle={() => setHelpPanel(!helpPanel)} scrollable direction={"end"}>
                     <OffcanvasHeader toggle={() => setHelpPanel(!helpPanel)} style={{fontFamily:"Mark Pro",whiteSpace:"pre-wrap", fontWeight:"bold"}}>
