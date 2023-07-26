@@ -2,7 +2,6 @@ package io.confluent.cwcsample;
 
 import io.confluent.cwcsample.models.Connection;
 import jakarta.annotation.PostConstruct;
-import jakarta.validation.Valid;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -97,7 +96,7 @@ public class Controller {
 
     // Define an endpoint to produce to the topic requested in the url
     @PostMapping(value = "/connections/confluentcluster/{connectionName}/{clusterId}/topic/{topic}/produce")
-    public void produce(@PathVariable String clusterId, @PathVariable String connectionName, @PathVariable String topic, @Valid @RequestBody String event){
+    public void produce(@PathVariable String clusterId, @PathVariable String connectionName, @PathVariable String topic, @RequestBody String event){
         //Retrieve the connection information (bootstrap server, Kafka API key & Secret, and Schema Registry connection details) from the "connections vault"
         //****REMINDER: Use a secure location for storing your connection information*****
         HashMap<String,String> connectionDetails = connectionsVault.get(connectionName).getDetails();
