@@ -28,7 +28,7 @@ A jar, named `cwcsample-0.1.jar` will be created in the `target` directory.
 
 Start the controller application by running the following command from the project directory:
 
-`java -jar /target/cwcsample-0.1.jar`
+`java -jar target/cwcsample-0.1.jar`
 
 ### Install the web application dependencies
 
