@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project shows a simple example of a Connect with Confluent native integration with Confluent Cloud. For more information about Connect with Confluent, see <-INSERTLINK->. 
+This project shows a simple example of a Connect with Confluent native integration with Confluent Cloud. For more information about Connect with Confluent, see https://www.confluent.io/blog/connect-with-confluent-partner-program/. 
 
 As with any UI based integration, there are two primary components to this project: 
 
