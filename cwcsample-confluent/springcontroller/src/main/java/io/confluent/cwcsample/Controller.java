@@ -30,8 +30,8 @@ CONFLUENT CLOUD SPECIFIC ENDPOINTS:
 - LIST TOPICS: show all topics in the cluster
 - PRODUCE: create a producer and send a message
 - CONSUME: create a consumer and retrieve messages from a topic
-- (todo) LIST ENVIRONMENTS: show environments available within Confluent Cloud
-- (todo) LIST CLUSTERS: show clusters available within a confluent Cloud environment
+- LIST ENVIRONMENTS: show environments available within Confluent Cloud
+- LIST CLUSTERS: show clusters available within a confluent Cloud environment
 
 SAMPLE APPLICATION SPECIFIC ENDPOINTS:
 - ADD CONNECTION: store connection info used to connect to Confluent Cloud
