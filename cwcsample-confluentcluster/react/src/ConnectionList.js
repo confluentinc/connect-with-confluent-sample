@@ -26,7 +26,7 @@ const ConnectionList = () => {
     const connectionList = Object.keys(connections).map(connection => {
         let url = "/connections"
         if (connections[connection].type === "confluentcluster") {
-            url = "/connections/confluentcluster/" + connection + "/environments"
+            url = "/connections/confluentcluster/" + connection + "/" + connection.details.clusterId + "/topics"
         }
 
         return <tr key={connection}>
