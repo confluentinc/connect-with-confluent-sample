@@ -1,0 +1,25 @@
+{
+  "short_name": "CwC Sample",
+  "name": "Connect with Confluent Sample",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "1073x1073",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo-blue.png",
+      "type": "image/png",
+      "sizes": "1073x1073"
+    },
+    {
+      "src": "logo-dark.png",
+      "type": "image/png",
+      "sizes": "1073x1073"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
